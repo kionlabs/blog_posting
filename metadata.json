@@ -1,0 +1,6 @@
+{
+  "name": "AI 블로그 문체 분석 포스팅 도구",
+  "description": "사용자의 블로그 URL을 분석하여 문체를 복제하거나, 브랜드 컨셉 페르소나를 통해 네이버 SEO 최적화 포스팅과 연동 가이드를 제공하는 AI 포스팅 생성기.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

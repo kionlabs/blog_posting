@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@theme {
+  --font-sans: "Helvetica Neue", Arial, "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Helvetica Neue", Arial, "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-blue: #2563eb;
+  --color-brand-hover: #1d4ed8;
+  --color-brand-bg: #f8fafc;
+  --color-brand-border: #e2e8f0;
+}
+
+/* Custom scrollbar and subtle editor stylings */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #1e293b;
+}
